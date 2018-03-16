@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Forms</title>
+</head>
+<body>
+
+<h1>Register</h1>
+<form action="http://wikipedia.org" method='post'>
+	<div>
+		<label for="firstName">First Name</label>
+		<input name="firstName" id="firstName" type="text" placeholder='first name' required>
+	</div>
+
+	<div>
+		<label for="lastName">Last Name</label>
+		<input name="lastName" id="lastName" type="text" placeholder='last name' required>
+	</div>
+
+
+	<div>
+		<label for='male'>Male</label>
+		<input id='male' type="radio" name="gender" value="male"> 
+		<label for='female'>Female</label>
+		<input id="female" type="radio" name="gender" value="female"> 
+		<label for='other'>Other</label>
+		<input id='other' type="radio" name="gender" value="other"> 
+	</div>
+
+	<div>
+		<label for='email'>Email:</label>
+		<input id='email' type="email" name="userEmail" required>
+		<label for='password'>Password:</label>
+		<input id='password' type="password" name="password" pattern=".{5,10}" required title="Enter 5 to 10 characters">
+	</div>
+	<div>
+		<label>Birthday:</label>
+		<select name='month'>
+			<option value="month">Month</option>	
+			<option value="jan">January</option>
+			<option value="feb">Feburary</option>
+			<option value="mar">March</option>
+		</select>
+		<select name='day'>
+			<option value="day">Day</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+		</select>
+		<select name='year'>
+			<option value="year">Year</option>
+			<option value="2000">2000</option>
+			<option value="2001">2001</option>
+			<option value="2003">2003</option>
+		</select>
+	</div>
+	<div>
+		<label>I agree to the terms and conditions</label>
+		<input type="checkbox">
+	</div>
+
+	<div>
+		<button type="Submit" id='Submit'>Submit</button>
+	</div>
+</form>
+	
+
+
+</body>
+</html>

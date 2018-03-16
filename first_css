@@ -1,0 +1,14 @@
+/*
+selector: {
+	property: value;
+}
+*/
+
+h1{
+	color: rgb(100,200,60);
+	border: 2px solid blue;
+}
+
+body{
+	background: lightblue;
+}

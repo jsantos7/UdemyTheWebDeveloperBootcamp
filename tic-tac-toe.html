@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Table</title>
+<style>
+	body{
+		text-align: center;
+	}
+
+	td{
+		width:100px;
+		height:100px;
+		border: solid;
+		border-color: black;
+	}
+/*	.firstRow tr:nth-of-type(1){
+		border-top: none;
+		border-left: none;
+		background: blue;
+	}*/
+	tr:first-child td:first-child{
+		/**background: red;**/
+		border-top: none;
+		border-left: none;
+	}
+
+	tr:first-child td:nth-child(2){
+		border-top: none;
+	}
+
+	tr:first-child td:nth-child(3){
+		border-top: none;
+		border-right: none;
+	}
+
+	tr:nth-child(2) td:first-child{
+		border-left:none;
+	}
+
+	tr:nth-child(2) td:nth-child(3){
+		border-right: none;
+	}
+
+	tr:nth-child(3) td:first-child{
+		border-bottom: none;
+		border-left:none;
+	}
+
+	tr:nth-child(3) td:nth-child(2){
+		border-bottom: none;
+	}
+	tr:nth-child(3) td:nth-child(3){
+		border-bottom: none;
+		border-right: none;
+	}
+
+
+</style>
+</head>
+<body>
+
+<h1>Tic Tac Toe</h1>
+<br>
+<table align="center" cellpadding="0" cellspacing="0">
+	<tr class='firstRow'>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr class='secondRow'>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr class='thirdRow'>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+</table>
+</body>
+</html>

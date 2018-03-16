@@ -1,0 +1,41 @@
+body{
+	border:solid;
+	border-color: #bdc3c7;
+	border-width: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+}
+
+.date{
+	color:#3498db;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-left: 20px;
+}
+
+h1{
+	color: #2c3e50;
+	margin-left: 20px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+p{
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+h1 + p{
+	border-left: 4px solid #bdc3c7;
+	padding-left: 6px;
+}
+
+hr{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+}
