@@ -3,20 +3,16 @@
 <head>
 <title>To Do List App</title>
 <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
-<!--<script type="text/javascript" src="assets/js/lib/jquery-2.1.4.min.js"></script>-->
-<script type="text/javascript" src="assets/js/lib/jquery-3.3.1.min.js"></script>
-<script type="text/javascript" src="assets/js/todos.js"></script>
+<script type="text/javascript" src="assets/js/lib/jquery-2.1.4.min.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
 <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-
 
 </head>
 <body>
 
 <div id='container'>
-	<h1 >To do List <i class="far fa-plus-square"></i>
-
-</h1>
+	<h1 >To do List <span id="toggle-form"><i class="far fa-plus-square"></i></span>
+	</h1>
 	<input id="getInput" type="text" placeholder="Add New Todo">
 
 	<ul>
@@ -26,7 +22,8 @@
 		<li><span><i class="far fa-trash-alt"></i></span> Buy New Wand</li>
 		<li><span><i class="far fa-trash-alt"></i></span> Kill Valdemort</li>
 	</ul>
-
+	
+	<script type="text/javascript" src="assets/js/todos.js"></script>
 
 </body>
 </html>
